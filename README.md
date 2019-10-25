@@ -6,8 +6,9 @@
 		<img width="420" height="237" src="https://i.imgur.com/acV0dfO.png">
 	</p>
 	<h4 align="center">
-		txAdmin FiveM Forum Post: &nbsp; <a href="https://forum.fivem.net/t/530475"><img src="https://img.shields.io/badge/dynamic/json.svg?color=green&label=txAdmin&query=views&suffix=%20views&url=https%3A%2F%2Fforum.fivem.net%2Ft%2F530475.json"></img></a>  <br/>
-		txAdmin Discord: &nbsp; <a href="https://discord.gg/f3TsfvD"><img src="https://discordapp.com/api/guilds/577993482761928734/widget.png?style=shield"></img></a>
+		[Alameda County Roleplay Discord](https://discord.gg/sCsTPwv)
+		[txAdmin Discord](https://discord.gg/NC8qThZ)
+		[txAdmin FiveM Forum Post](https://forum.fivem.net/t/release-txadmin-web-panel-discord-bot-live-console-autorestarter/530475)
 	</h4>
 	<p align="center">
 		<b>Administration Panel</b> is a <b>full featured</b> web panel to Manage & Monitor your FiveM Server remotely.
