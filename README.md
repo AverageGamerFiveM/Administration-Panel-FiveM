@@ -64,7 +64,7 @@
 
 **1 -** In the terminal (cmd, bash, powershell & etc) execute the following commands:
 ```bash
-# Download txAdmin, Enter folder and Install dependencies
+# Download Administration Panel, Enter folder and Install dependencies
 git clone https://github.com/AverageGamerFiveM/Administration-Panel-FiveM
 cd AdminPanel
 npm i
