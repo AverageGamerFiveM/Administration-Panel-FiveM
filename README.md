@@ -10,7 +10,7 @@
 		Join our Discord Server: &nbsp; <a href="https://discord.gg/f3TsfvD"><img src="https://discordapp.com/api/guilds/577993482761928734/widget.png?style=shield"></img></a>
 	</h4>
 	<p align="center">
-		<b>txAdmin</b> is a <b>full featured</b> web panel to Manage & Monitor your FiveM Server remotely.
+		<b>Administration Panel</b> is a <b>full featured</b> web panel to Manage & Monitor your FiveM Server remotely.
 	</p>
 </p>
 
@@ -42,7 +42,12 @@
 - (BETA) SSL Support ([more info](docs/ssl_support.md))
 - Translation Support ([more info](docs/translation.md))
 - (BETA) Server Activity Log (connections/disconnections, kills, chat and explosions)
-- (BETA) Ban System
+- (BETA) Player Management System
+	- (BETA) Online Players List
+	- (BETA) Player Search
+	- (BETA) Warnings List
+	- (BETA) Kicks List
+	- (BETA) Bans List
 - FiveM's Server CFG editor
 
 
@@ -60,8 +65,8 @@
 **1 -** In the terminal (cmd, bash, powershell & etc) execute the following commands:
 ```bash
 # Download txAdmin, Enter folder and Install dependencies
-git clone https://github.com/tabarra/txAdmin
-cd txAdmin
+git clone https://github.com/AverageGamerFiveM/Administration-Panel-FiveM
+cd AdminPanel
 npm i
 
 # Add admin
@@ -75,54 +80,43 @@ node src/index.js default
 ```
 
 **2 -** Then open `http://public-ip:40120/` in your browser and login with the credentials created and go to the settings page to configure the remaining settings.   
-**If on Windows, you can start txAdmin by executing `start.bat` in your server profile's folder (example `data/default/start.bat`).**  
+**If on Windows, you can start the Administration Panel by executing `start.bat` in your server profile's folder (example `data/default/start.bat`).**  
 
-> **Note:** You should run FXServer **through** txAdmin, and not in parallel (ie in another terminal).  
+> **Note:** You should run FXServer **through** the Administration Panel, and not in parallel (ie in another terminal).  
 
 > **Note2:** To configure your Discord bot, follow these two guides:  [Setting up a bot application](https://discordjs.guide/preparations/setting-up-a-bot-application.html) and [Adding your bot to servers](https://discordjs.guide/preparations/adding-your-bot-to-servers.html).  
 
 > **Note3:** Although **not recommended**, you can set FXServer processes priorities. To do so, change `fxRunner.setPriority` in the `config.json` to one of the following: LOW, BELOW_NORMAL, NORMAL, ABOVE_NORMAL, HIGH, HIGHEST.  
 
-> **Note4:** To create more server profiles, execute `node src/scripts/setup.js <profile name>`. You can run multiple txAdmin instances in the same installation folder. 
+> **Note4:** To create more server profiles, execute `node src/scripts/setup.js <profile name>`. You can run multiple Administration Panel instances in the same installation folder. 
 
 ## Troubleshooting
 ### If you run into any problem, check our [Troubleshooting Guide](docs/troubleshooting.md).   
-If you are having trouble starting the FXServer via txAdmin, run `node src/scripts/config-tester.js default` and see which test is failing.  
+If you are having trouble starting the FXServer via the Administration Panel, run `node src/scripts/config-tester.js default` and see which test is failing.  
 
 ## Updating
-To **UPDATE** txAdmin execute the following commands inside txAdmin's folder:
+To **UPDATE** the Administration Panel execute the following commands inside AdminPanel folder:
 ```bash
 git pull
 npm i
 ``` 
 If you have any problems with `package-lock.json`, just delete it and try again.  
-> **Note:** This will only work if you downloaded txAdmin using the `git clone` command.  
+> **Note:** This will only work if you downloaded the Administration Panel using the `git clone` command.  
 
 
   
 ## TODO:
 The next major things:
-- [ ] Extension system
-- [ ] Multi-server support
-- [ ] Packaging txAdmin on a self-updating binary file
-- [ ] Ban/Whitelist feature
+- [ ] N/A
 
 Minor things:
-- [ ] Reorganize all files/folders
-- [ ] Write a page that is full of small How-To's and link them here.
-- [ ] Write version bumper script
-- [ ] Config tester kill spawned fxserver after 5 seconds (do people use the config tester?)
-- [ ] Investigate the "fxserver has stopped working" not disappearing when autorestarter kills the server (probably windows detaches it? in that case we would need to PID map and then kill them one by one?) (Note: when this happens, there is a close but not exit event. Or the other way around idk)
-- [ ] Remove `forceFXServerPort`, 10x more complicated than it should be for a feature that probably won't even be used
+- [ ] N/A
 
 Ideas:
-- [ ] Discord bot extensions via required js files? Imagine typing `/whitelist @username` and the bot cross referencing the vRP id via the discord:xxx identifier. Or a `/me` giving back this users vRP stats like cars, wallet, bank, apartments & etc.
-- [ ] Add some sort of detection to see if there is a fxserver running outside txAdmin on the same port.
-
-The old TODO can be found [here](docs/old_todo.md). 
-And a less organized TODO/Ideas file can be found [here](dev_roadmap.md). 
+- [ ] N/A 
 
 ## License, Credits and Thanks
-- This project is licensed under the [MIT License](https://github.com/tabarra/txAdmin/blob/master/LICENSE).
+- This project is licensed under the MIT License.
 - Favicons made by Freepik from [www.flaticon.com](www.flaticon.com) are licensed under [CC 3.0 BY](http://creativecommons.org/licenses/by/3.0/)
 - Special thanks to everyone that contributed to this project.
+- Also this Administration Panel was based of [txAdmin](https://github.com/tabarra/txAdmin) by [Tabarra](https://github.com/tabarra/)
