@@ -3,14 +3,6 @@
 		Administration Panel for FiveM
 	</h1>
 	<p align="center">
-		<img width="420" height="237" src="https://i.imgur.com/acV0dfO.png">
-	</p>
-	<h4 align="center">
-		[Alameda County Roleplay Discord](https://discord.gg/sCsTPwv)
-		[txAdmin Discord](https://discord.gg/NC8qThZ)
-		[txAdmin FiveM Forum Post](https://forum.fivem.net/t/release-txadmin-web-panel-discord-bot-live-console-autorestarter/530475)
-	</h4>
-	<p align="center">
 		<b>Administration Panel</b> is a <b>full featured</b> web panel to Manage & Monitor your FiveM Server remotely.
 	</p>
 </p>
@@ -18,6 +10,11 @@
 <br/>
 
 
+
+## Links
+- Official Server Of Administration Panel FiveM [Discord](https://discord.gg/sCsTPwv)
+- Official txAdmin [Discord](https://discord.gg/NC8qThZ)
+- txAdmin FiveM Forum [Post](https://forum.fivem.net/t/release-txadmin-web-panel-discord-bot-live-console-autorestarter/530475)
 
 ## Features
 - Start/Stop/Restart your server instance or resources
